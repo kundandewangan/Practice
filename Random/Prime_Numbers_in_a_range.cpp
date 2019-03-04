@@ -3,7 +3,7 @@ using namespace std;
 
 int primeNumbers(int num1, int num2)
 {
-	int i,j, flag;
+	int i, j, flag;
 	for(i=num1; i<num2; i++)
 	{
 		// Skip 1 as1 is niether 
