@@ -28,16 +28,13 @@ void rotate(int a[][SIZE], int n)
 			a[n-j-1][i]=temp;	
 			
 			/*
-			temp=a[n-j-1][i];
-			a[n-j-1][i]=a[i][j];
-			a[n-1-i][n-1-j]=a[n-j-1][i];
-			a[j][n-i-1]=a[n-1-i][n-1-j];
-			a[i][j]=temp;
+				rotating clockwise
+			temp=a[i][j];
+			a[i][j]=a[n-j-1][i];
+			a[n-j-1][i]=a[n-1-i][n-1-j];
+			a[n-1-i][n-1-j]=a[j][n-i-1];
+			a[j][n-i-1]=temp;
 			*/
-			
-			
-			
-			
 		}
 	}
 }
