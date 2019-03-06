@@ -2,6 +2,11 @@
 #include <cstdlib>
 #include <cstdint>
 
+/* Idea here is to 1st sort both the arrays and then computing the difference between the elements of 2 arrays and 
+	storing the least value available till the end of both the arrays.
+	I have used selection sort for this program. May be I will change this sorting algo with other sorting algo.
+*/
+
 const int MAX=2147483647;
 using namespace std;
 
