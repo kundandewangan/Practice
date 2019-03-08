@@ -6,8 +6,8 @@ using namespace std;
 		position=  low index + ( high_index - low_index )*( value_to_be_searched - arr[low_index] ) / ( arr[high_index]-arr[low_index] )  
 		
 	we run the loop till the number is found
-		if arr[low_index]< value update with low_index ++ 
-		if arr[high_index]> value update with high_index --
+		if arr[low_index]< value then update with low_index ++ 
+		if arr[high_index]> value then update with high_index --
 		and after every interval position is updated with new value and the process continues
 */
 int interpolationSearch(int arr[], int n, int value)
