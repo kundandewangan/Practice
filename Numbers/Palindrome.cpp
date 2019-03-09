@@ -4,7 +4,7 @@ using namespace std;
 /*
 	Palindrome is a number which is same from the start as well from the end. Eg, 121, 12321, etc.
 	Idea here is to 1st get the remainder of the number then use it to make the reverse of the number.
-	while loop will run till tem!=0 
+	while loop will run till temp!=0 
 */
 
 
