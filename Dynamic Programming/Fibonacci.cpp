@@ -3,7 +3,7 @@ using namespace std;
 
 void fibonacci(int n)
 {
-	// creating a memoized array to store the values. taking n+1 to handle n=0 
+	// creating a memoized array to store the values. taking n+1 to handle n=0. 
 	int i,memo[n+1];
 	memo[0]=0,memo[1]=1; 
 	for(i=2; i<=n; i++)
